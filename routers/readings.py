@@ -48,7 +48,7 @@ def update_aggregates(h3_index: str):
             db.add(agg)
         
         db.commit()
-        print(f"✅ Aggregates обновлены для h3={h3_index}")
+        print(f"Aggregates updated for h3={h3_index}")
         
     finally:
         db.close()

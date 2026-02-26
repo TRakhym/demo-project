@@ -23,4 +23,4 @@ app.include_router(aggregates.router)
 
 @app.get("/")
 def root():
-    return {"message": "Air Quality Monitoring System с H3 индексацией запущен!"}
+    return {"message": "Air Quality Monitoring System launched"}

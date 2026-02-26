@@ -30,7 +30,7 @@ def create_sensor(
     db.commit()
     db.refresh(db_sensor)
     
-    print(f"✅ Сенсор создан, id={db_sensor.id}, h3={h3_idx}")
+    print(f"Sensor created, id={db_sensor.id}, h3={h3_idx}")
     return {
         "id": db_sensor.id,
         "name": db_sensor.name,
